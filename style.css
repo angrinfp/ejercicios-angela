@@ -1,0 +1,42 @@
+.a, .b, .c, .d, .e {
+	background-color: purple;
+	margin: 5px 0;
+}
+
+.a, .b, .c, .d {
+	width: 300px;
+	height: 150px;
+}
+
+.e {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+}
+
+.a {
+	border-bottom-right-radius: 100px;
+	-moz-border-radius-bottom-right: 100px;
+}
+
+.b {
+	border-bottom-right-radius: 100px 50px;
+	-moz-border-radius-bottom-right: 100px 50px;
+}
+
+.c {
+	border-bottom-right-radius: 50px 100px;
+	-moz-border-radius-bottom-right: 50px 100px;
+}
+
+.d {
+	border-top-left-radius: 20px;
+	-moz-border-radius-top-left: 20px;
+	border-bottom-right-radius: 20px;
+	-moz-border-radius-bottom-right: 20px;
+	border-top-right-radius: 100px;
+	-moz-border-radius-top-right: 100px;
+	border-bottom-left-radius: 100px;
+	-moz-border-radius-bottom-left: 100px;
+}
